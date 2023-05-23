@@ -21,7 +21,7 @@ function calculation() {
     //  Declaring whether you are Under Weight, Normal, Overweight or Obese
     if (bmi < 18.5) {
             display.innerHTML = `You are Under Weight 🦟: ${bmi}`;
-            display.style.color = "orange"
+            display.style.color = "#E55807"
           } else if (bmi >= 18.5 && bmi < 24.9) {
             display.innerHTML = `You are Normal Weight 😏: ${bmi}`;
             display.style.color = "green"
