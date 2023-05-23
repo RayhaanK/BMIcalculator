@@ -39,6 +39,3 @@ function clears() {
     // clears everyting displayed
   window.location.reload()
 }
-clear.addEventListener("click", () => {
-  clears();
-});
