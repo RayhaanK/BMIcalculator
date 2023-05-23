@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #B799FF;
 }
 
 .container h1{
@@ -24,24 +25,41 @@ body {
     padding: 3rem;
     width: 300px;
     height: 400px;
+    background-color: #ACBCFF;
 }
 
 .container p {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     text-align: center;
 }
 
 input {
     height: 1.5rem;
+    width: 13rem;
+    
 }
 
 .input {
     margin-bottom: 20px;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
 }
 
 button {
     font-size: 20px;
     padding: 0.1rem;
-    margin: auto;
+    width: 5rem;
+    background-color: #AEE2FF;
+}
+
+button:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+    transform: scale(1.1);
 }
