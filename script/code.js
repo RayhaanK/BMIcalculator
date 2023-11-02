@@ -27,7 +27,7 @@ function calculation() {
             display.style.color = "green"
           } else if (bmi >= 25 && bmi < 29.9) {
             display.innerHTML = `You are Overweight : ${bmi}`;
-            display.style.color = "#990000"
+            display.style.color = "#F94A29"
         } else {
             display.innerHTML = `You are Obese : ${bmi}`;
             display.style.color = "#F94A29"
